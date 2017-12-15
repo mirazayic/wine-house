@@ -1,0 +1,367 @@
+@font-face {
+    font-family: 'italiannoregular';
+    src: url('italianno-regular-otf-webfont.eot');
+    src: url('italianno-regular-otf-webfont.eot?#iefix') format('embedded-opentype'),
+        url('italianno-regular-otf-webfont.woff') format('woff'),
+        url('italianno-regular-otf-webfont.ttf') format('truetype'),
+        url('italianno-regular-otf-webfont.svg#italiannoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, h2, h3,
+.footerBrand,
+.italianno {
+    font-family: 'italiannoregular';
+}
+
+.carousel .carousel-caption > p:first-of-type {
+    font-size: 40px;
+}
+h1 {
+    font-size: 70px; 
+    word-spacing: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 49px; 
+        word-spacing: 10px;
+    }   
+}
+
+h2 {
+    font-size: 60px;
+    word-spacing: 20px;
+}
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 40px; 
+        word-spacing: normal;
+    }   
+}
+
+h3 {
+    font-size: 47px; 
+}
+@media screen and (max-width: 768px) {
+    h3 {
+        font-size: 35px; 
+        word-spacing: normal;
+    }   
+}
+
+p.italianno {
+    font-size: 35px;
+    line-height: 1em;
+}
+@media screen and (max-width: 768px) {
+    p.italianno {
+        font-size: 30px;
+        line-height: 1em;
+    }   
+}
+
+.cena {
+    font-size: 30px;
+}
+@media screen and (max-width: 768px) {
+    .cena {
+        font-size: 25px; 
+    }   
+}
+.thumbnail h3 {
+    font-weight: bolder;
+}
+
+
+
+
+body {
+    display : none;
+    /*background-color: #100802;*/
+    /*color: white;*/
+    padding-top: 63px;
+    font-size: 16px;
+}
+.bodyUp {
+    padding-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding-top: 110px; 
+    }   
+    .bodyUp {
+        padding-top: 155px;
+    }
+}
+@media screen and (max-width: 992px) {
+    body {
+        padding-top: 110px; 
+    } 
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+.btn, .btn-lg, .btn-sm,
+.panel,
+.thumbnail, .img-thumbnail,
+.navbar-toggle {
+    border-radius: 2px;
+}
+
+/*================================================================================================== header =============*/
+.navbar-default .navbar-brand {
+    font-size: 34px;
+    width: 100%;
+    text-align: center;
+    color: #88C3FA;
+}
+
+.navbar-nav {
+    letter-spacing: 2px;
+    border-bottom: 0;
+}
+.navbar-fixed-top {
+    margin-bottom: 0;
+}
+.navbar.navbar-default.navCarousel {
+    /*background-color: rgba(31, 77, 119, 0.5);      umesto : background-color: #0047FF; opacity: 0.4;*/
+    background-color: rgba(116, 102, 80, 0.5);
+    border-bottom: 1px solid #3470DA;
+}
+
+.navbar.navbar-default {
+    color: white;
+    background-color: #867862;
+    border-bottom: 1px solid #3470DA;
+}
+
+@media (min-width: 768px) {
+    .nav.navbar-nav {
+        width: 750px;
+    }
+
+}
+@media (min-width: 992px) {
+    .nav.navbar-nav {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .nav.navbar-nav {
+        width: 1170px;
+    }
+}
+
+
+.navbar-nav.nav-justified > li{    /* ------------- bitno! --------------------------*/
+    float:none;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        padding-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar.navbar-default.navCarousel {
+        background-color: #867862;
+        border-bottom: 1px solid #3470DA;
+    }
+    .navbar-default .navbar-collapse {
+        max-height: 400px;
+        background-color: #867862;
+        border-bottom: 1px solid #3470DA;
+        border-top: 0;
+    }
+    .navbar-collapse.in {
+        background-color: #867862;
+        border-bottom: 1px solid #3470DA;
+    }
+    .nav > li {
+        margin: 0 20px;
+    } 
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #faf2cc;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    /*color: #1C120D;*/
+    color: white;
+    /*font-weight: 900;*/
+    font-size: xx-large;
+    background-color: inherit;
+    line-height: 1em;
+    /*border-radius: 2px;*/
+} 
+/*za nous stranu-----------------------------------------------------------------------------------------------*/
+.navbar-default .navbar-nav > .active > a.nav-a-nous, 
+.navbar-default .navbar-nav > .active > a.nav-a-nous:hover,
+.navbar-default .navbar-nav > .active > a.nav-a-nous:focus {
+    font-size: x-large;
+    line-height: 0.8em;
+} 
+
+@media screen and (max-width: 992px) {
+    .navbar-default .navbar-nav > .active > a.nav-a-about, 
+    .navbar-default .navbar-nav > .active > a.nav-a-about:hover,
+    .navbar-default .navbar-nav > .active > a.nav-a-about:focus {
+        font-size: x-large;
+        line-height: 0.8em;
+    } 
+}
+
+.navbar-collapse .navbar-btn.btn-group {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navbar-collapse .btn.cart {
+    margin-left: 10px;
+}
+.navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}
+
+
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+    background-color: #FFF;
+}
+/*================================================================================================== /header =============*/
+/*=================================================================================================== footer ============*/
+
+footer {
+    border-bottom: #948469 20px solid;
+    background-color: #948469;
+    color: #695A42;
+}
+footer .footerBrand {
+    min-height: 130px;
+    /*padding-top: 30px;*/
+    padding-bottom: 23px;
+    /*color: white;*/
+    text-align: center; 
+}
+@media screen and (max-width: 1200px) {
+    .footerBrand.footerIndex {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+}
+
+.navbar.navbar-default.nav-default-color {
+    background-color: #6C5F4B;
+}
+.navbar-default .navbar-text {
+color: #CBC1B2;
+}
+
+footer .footerCopyright {
+    background-color: #6C5F4B;
+    /*color: #E4DDD8;*/
+    color: #CBC1B2;
+    border-top: #3470DA 1px solid;
+    border-bottom: #3470DA 1px solid;
+/*    padding-right: 2%;
+    padding-left: 2%;*/
+}
+
+/*=================================================================================================== /footer ============*/
+/*=================================================================================================== home ===============*/
+.carousel {
+    margin-bottom: 19px;
+    background-color: #1C120D;
+}
+.carousel-indicators li {
+    border: 1px #B09A91 solid;
+}
+.carousel-indicators .active {
+    background-color: #B09A91;
+}
+
+.logo {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.item > img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerInverse {
+    background-color: white;
+    border-bottom: #948469 10px solid;
+    color: #746650;
+}
+
+
+/*=================================================================================================== /home ===============*/
+/*================================================================================================== about page ===========*/
+.narrowContainer {
+    width: 700px;
+}
+@media screen and (max-width: 768px) {
+    .narrowContainer {
+        width: auto;
+    }
+}
+.indent {
+    text-indent: 50px;
+}
+/*================================================================================================== /about page ===========*/
+/*================================================================================================== wines page ===========*/
+
+div.thumbnail div.text-right h3 {
+    margin-top: 0px;
+}
+div.thumbnail hr {
+    border: 1px solid #eee;
+}
+/*================================================================================================== /wines page ===========*/
+/*================================================================================================== contact page ===========*/
+.panel {
+    color: black;
+}
+label {
+    font-weight: normal;
+}
+.map {
+    width: 100%;
+}
+
+.glyphicon {
+    color: #A2C4E9;
+}
+.glyphicon-shopping-cart {
+    color: white;
+}
+/*================================================================================================== /contact page ===========*/
+
+.inverse {
+    color: white;
+    /*background-color: #A79981;*/
+    background-color: #A79981;
+}
+.padding {
+    padding-top: 30px;
+}
+
